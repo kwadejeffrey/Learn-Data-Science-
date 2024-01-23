@@ -131,6 +131,7 @@ def read_html():
         df['index'] = np.arange(1, 17)
         
         df.set_index('index', inplace=True)
+        # 586437
         
         # grab data from row
         df = df.loc[15]
